@@ -1,0 +1,83 @@
+.aboutTitle{
+    /* background-image: url(/public/images/About/About_Group\ 39.png); */
+    width: 100%;
+    /* align-items: flex-end; */
+    /* background-position: right 5% top 15%; */
+    margin-top:-38% ;
+    
+}
+.aboutbgimg{
+    width: 50%;
+    margin-left: 50%;
+}
+.aboutbgimg2{
+    width: 50%;
+    margin-top: -20%;
+    
+}
+.img-fluid{
+    align-items: center;
+    /* margin: 0 200px; */
+    
+}
+.about_row_main{
+    width: 75%;
+    margin-left: 190px;
+    margin-top: 2%;
+    text-align: justify;
+}
+
+.aboutTitle h1{
+    margin-top: 100px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+ 
+/* @media screen and (max-width: 820px) {
+    .aboutTitle {
+        margin-left: -11%;
+    }
+}
+*/
+/* @media screen and (max-width: 540px) {
+    .aboutTitle {
+        margin-left: -22%;
+    }
+} */
+@media screen and (min-width:1025px) and (max-width: 1280px) {
+    .aboutTitle {
+        margin-left: -2%;
+    }
+}
+@media screen and (min-width:993px) and (max-width: 1024px) {
+    .aboutTitle {
+        margin-left: -6%;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 992px) {
+    .aboutTitle {
+        margin-left: -8%;
+    }
+} 
+@media screen and (min-width:577px) and (max-width: 768px) {
+    .aboutTitle {
+        margin-left: -12%;
+    }
+    .aboutTitle h1 {
+        margin-top: 40px;
+        margin-left: 200px;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:270px) and (max-width: 576px) {
+    .aboutTitle {
+        margin-left: -36%;
+        justify-content: center;
+    }
+    .aboutTitle h1{
+        margin-top: 19px;
+        margin-left: 190px;
+        cursor: pointer;
+    }
+}
